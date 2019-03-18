@@ -1,0 +1,56 @@
+@media (max-width: 960px) {
+  .navbar__contacts {
+    display: none;
+  }
+  .menu__list {
+    flex-direction: column;
+  }
+  
+  .menu__link {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .menu__link:active {
+  background-color: #3866c7;
+  }
+
+  .banner {
+    padding-top: 50px
+  } 
+
+  .banner__text {
+    margin-bottom: 35px;
+  }
+
+  .banner__price {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .banner {
+    background-image: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar__logo {
+    display: none;
+  }
+
+  .menu-button {
+    height: 60px;
+    width: 60px;
+  }
+
+  .button-o {
+    padding: 15px 20px;
+    font-size: 10px;
+  }
+
+  .banner {
+    margin-top: 60px;
+  }
+}

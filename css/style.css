@@ -30,9 +30,9 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-shrink: 0;
   flex-wrap: wrap;
-  min-height: 80px;
 }
 
 .navbar__item {
@@ -43,6 +43,7 @@ body {
 .menu-button {
   background-color: transparent;
   border: none;
+  padding: 0;
   border-left: 1px solid rgba(81, 11, 186, 0.1);
   border-right: 1px solid rgba(81, 11, 186, 0.1);
   height: 80px;
@@ -58,11 +59,6 @@ body {
   height: 3px;
   background-color: #507fe1;
   margin-bottom: 5px;
-}
-
-.navbar__logo {
-  margin-left: 30px;
-  margin-right: auto;
 }
 
 .logo__text {
@@ -123,15 +119,6 @@ padding: 25px 45px;
   color: #fff;
 }
 
-.navbar__button {
-  margin-left: 30px;
-}
-
-.navbar__mobile {
-  margin-right: auto;
-  margin-left: 94px;
-}
-
 .menu {
   background-color: #4370ce;
   transform: translateY(-100%);
@@ -149,12 +136,9 @@ padding: 25px 45px;
   list-style: none;
   padding: 0;
   margin: 0;
-  list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 10px;
 }
 
 .menu__item {
@@ -174,10 +158,11 @@ padding: 25px 45px;
   background-color: #f1f1f1;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
+  background-position: top left;
+  background-size: contain;
   margin-top: 80px;
   padding-top: 120px;
+  padding-bottom: 200px;
 }
 
 .banner__text {
