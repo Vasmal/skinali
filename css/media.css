@@ -1,3 +1,9 @@
+@media (max-width: 1120px) {
+  .offer-block::before {
+    opacity: 0.6;
+  }
+}
+
 @media (max-width: 960px) {
   .navbar__contacts {
     display: none;
@@ -75,6 +81,10 @@
     margin-bottom: 0;
   }
 
+  .features__item {
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 580px) {
@@ -102,6 +112,16 @@
 
   .offer__text {
     font-size: 17px;
+  }
+
+  .features__item {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 80px;
   }
 }
 
