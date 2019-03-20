@@ -2,10 +2,11 @@
   .navbar__contacts {
     display: none;
   }
+
   .menu__list {
     flex-direction: column;
   }
-  
+
   .menu__link {
     width: 100%;
     padding: 10px 0;
@@ -13,12 +14,12 @@
   }
 
   .menu__link:active {
-  background-color: #3866c7;
+    background-color: #3866c7;
   }
 
   .banner {
     padding-top: 50px
-  } 
+  }
 
   .banner__text {
     margin-bottom: 35px;
@@ -27,12 +28,53 @@
   .banner__price {
     margin-bottom: 50px;
   }
+
+  .offer-block {
+    padding: 40px;
+  }
+
+  .offer-block::before {
+    opacity: 0.6;
+  }
 }
 
 @media (max-width: 750px) {
   .banner {
     background-image: none;
   }
+
+  .offer-block {
+    padding: 40px;
+    background-image: none;
+  }
+
+  .form__row {
+    flex-direction: column;
+
+  }
+
+  .form__group {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .form__group:last-child {
+    margin-bottom: 0;
+  }
+
+  .form__input {
+    border-right: 1px solid #ddd;
+  }
+
+  .form__row-checkbox {
+    flex-direction: row;
+  }
+
+  .group-checkbox {
+    width: auto;
+    margin-bottom: 0;
+  }
+
 }
 
 @media (max-width: 580px) {
@@ -52,5 +94,29 @@
 
   .banner {
     margin-top: 60px;
+  }
+
+  .offer__title {
+    font-size: 20px;
+  }
+
+  .offer__text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 408px) {
+  .form__input,
+  .form__button  {
+    height: 60px;
+  }
+
+  .form__row-checkbox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .group-checkbox:not(:last-child) {
+    margin-bottom: 25px;
   }
 }

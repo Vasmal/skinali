@@ -19,7 +19,7 @@
 				<div class="container">
 					<ul class="navbar__list">
 						<li class="navbar__item">
-							<button class="menu-button">
+							<button class="menu-button" type="button">
 								<span class="menu-button__line"></span>
 								<span class="menu-button__line"></span>
 								<span class="menu-button__line"></span>
@@ -38,7 +38,7 @@
 							<a class="navbar__email same-font" href="mailto:info@mail.cu">info@mail.cu</a>
 						</li>
 						<li class="navbar__item navbar__button">
-							<button class="button button-o">Получить консультацию</button>
+							<button class="button button-o" type="button">Получить консультацию</button>
 						</li>
 					</ul>
 				</div>
@@ -62,10 +62,75 @@
 			<div class="container">
 				<p class="banner__text">Гарантия минимальной цены на скинали</p>
 				<strong class="banner__price">от 3 000 р/м2</strong>
-				<button class="button banner__button">Заказать скинали</button>
+				<button class="button banner__button" type="button">Заказать скинали</button>
 			</div>
 		</div>
 	</header>
+
+	<main>
+		<section class="offer bg-secondary">
+			<div class="container">
+				<div class="offer-block">
+					<h2 class="section-title offer__title">Оставьте заявку на расчет</h2>
+					<p class="offer__text">и получите скидку 30% на изготовление скинали или фартука для кухни</p>
+
+					<form action="#" method="POST" class="form offer__form">
+						<div class="form__row">
+							<div class="form__group">
+								<label for="glass" class="form__label">Вид стекла</label>
+								<select type="text" class="form__input" id="glass">
+									<option value="with print">С печатью</option>
+									<option value="with engraving">С гравировкой</option>
+									<option value="with application">С аппликацией</option>
+								</select>
+							</div>
+
+							<div class="form__group">
+								<label for="width" class="form__label">Ширина, см</label>
+								<input type="text" class="form__input" id="width">
+							</div>
+
+							<div class="form__group">
+								<label for="height" class="form__label">Высота, см</label>
+								<input type="text" class="form__input" id="height">
+							</div>
+						</div>
+
+						<div class="form__row form__row-checkbox">
+							<div class="form__group group-checkbox">
+								<input type="checkbox" class="form__checkbox visually-hidden" id="check-1" name="installation">
+								<label for="check-1" class="form__label-checkbox">
+									Монтаж
+								</label>
+							</div>
+
+							<div class="form__group group-checkbox">
+								<input type="checkbox" class="form__checkbox visually-hidden" id="check-2" name="delivery">
+								<label for="check-2" class="form__label-checkbox" >
+									Доставка
+								</label>
+							</div>
+
+						</div>
+
+						<div class="form__row">
+							<div class="form__group">
+								<input type="text" placeholder="Ваше имя" class="form__input">
+							</div>
+
+							<div class="form__group">
+								<input type="tel" placeholder="Ваш телефон" class="form__input">
+							</div>
+
+							<div class="form__group">
+								<input type="submit" value="Получить скидку" class="button form__button">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
 
 	<!--Подключение кнопки обратной связи-->
 	<script type="text/javascript" src="https://spikmi.com/Widget?Id=490"></script>
