@@ -2,6 +2,14 @@
   .offer-block::before {
     opacity: 0.6;
   }
+
+  .price__list {
+    justify-content: space-around;
+  }
+
+  .price__item {
+    width: 31%;
+  } 
 }
 
 @media (max-width: 960px) {
@@ -49,9 +57,17 @@
     margin-right: auto;
   }
 
+  .blog__articles {
+    justify-content: space-around;
+  }
+
   .blog__item {
     width: 32%;
-  }
+  } 
+
+  .price__item {
+    width: 48%;
+  } 
 }
 
 @media (max-width: 750px) {
@@ -169,6 +185,14 @@
   .blog__item {
     width: 100%;
   }
+
+  .price {
+    padding: 60px 0;
+  }
+
+  .price__item {
+    width: 100%;
+  } 
 }
 
 @media (max-width: 408px) {
