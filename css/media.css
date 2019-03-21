@@ -10,6 +10,18 @@
   .price__item {
     width: 31%;
   } 
+
+  .work-stage__item {
+    width: 33%;
+  }
+
+  .work-stage__item:nth-child(3)::after {
+    display: none;
+  }
+
+  .work-stage__item:nth-child(4)::before {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -193,6 +205,15 @@
   .price__item {
     width: 100%;
   } 
+
+  .work-stage__item {
+    width: 50%;
+  }
+
+  .work-stage__item::before,
+  .work-stage__item::after {
+    display: none;
+  }
 }
 
 @media (max-width: 408px) {
@@ -213,5 +234,12 @@
   .catalog__vew-button {
     font-size: 13px;
     padding: 20px;
+  }
+
+  .work-stage {
+    padding-bottom: 0;
+  }
+  .work-stage__item {
+    width: 100%;
   }
 }
