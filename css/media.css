@@ -87,10 +87,12 @@
     background-image: none;
   }
 
-  .offer-block {
+  .offer-block,
+  .offer-2 .offer-block {
     padding: 40px;
     background-image: none;
   }
+
 
   .form__row {
     flex-direction: column;

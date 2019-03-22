@@ -17,3 +17,13 @@
   font-weight: normal;
   font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Proxima Nova Light Italic';
+    src: url('../fonts/ProximaNova-LightIt.eot');
+    src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-LightIt.woff') format('woff'),
+    url('../fonts/ProximaNova-LightIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

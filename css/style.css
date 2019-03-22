@@ -241,6 +241,7 @@ body {
   padding: 80px;
   background-color: #fff;
   background-image: url(../img/form-bg.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
   transform: translateY(-102px);
@@ -774,5 +775,99 @@ font-weight: 400;
   z-index: 1;
 }
 
+/*reviews*/
+
+.reviews {
+  padding-bottom: 278px;
+}
+
+.reviews__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reviews__item {
+  width: 32%;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews p {
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 100%;
+  min-height: 144px;
+  text-align: center;
+  padding: 22px 24px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.reviews p::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  transform: rotate(45deg) translateX(-50%);
+}
+
+.reviews img {
+  margin-top: auto;
+  margin-bottom: 20px;
+  background-color: #f6f7f9;
+  border-radius: 50%;
+  border: 2px solid #6a99e9;
+}
+
+.reviews span {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 300;
+}
+
+
+/*Offer-2*/
+
+.offer-2 .offer-block{
+  padding: 60px 70px;
+  background-image: url(../img/offer-2-bg.png);
+  transform: translateY(-160px);
+}
+
+.offer-2 .offer__text {
+  max-width: 850px;
+  margin-bottom: 44px;
+}
+
+.offer-2 .form__row {
+  margin-top: 30px;
+}
+
+.offer-2__security {
+  margin: 0;
+  margin-left: 45px;
+  max-width: 360px;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #596164;
+}
 
 
