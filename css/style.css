@@ -279,6 +279,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   max-width: 900px;
   margin-top: 25px;
 }
@@ -868,6 +869,10 @@ font-weight: 400;
   line-height: 17px;
   font-weight: 300;
   color: #596164;
+}
+
+.offer-2 .form__button {
+  min-width: 282px;
 }
 
 
