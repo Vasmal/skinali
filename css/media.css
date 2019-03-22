@@ -32,6 +32,8 @@
   .work-stage__item:nth-child(4)::before {
     display: none;
   }
+
+ 
 }
 
 @media (max-width: 960px) {
@@ -160,6 +162,11 @@
 }
 
 @media (max-width: 580px) {
+
+  .section-title {
+    font-size: 25px;
+    margin-bottom: 80px;
+  }
   .navbar__logo {
     display: none;
   }
@@ -180,6 +187,7 @@
 
   .offer__title {
     font-size: 20px;
+    margin-bottom: 30px;
   }
 
   .offer__text {
@@ -188,11 +196,6 @@
 
   .features__item {
     width: 100%;
-    margin-bottom: 80px;
-  }
-
-  .section-title {
-    font-size: 25px;
     margin-bottom: 80px;
   }
 
@@ -231,6 +234,16 @@
   .work-stage__item::before,
   .work-stage__item::after {
     display: none;
+  }
+
+  .about-us {
+    padding-bottom: 60px;
+  }
+
+  .about-us__text p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
   }
 }
 

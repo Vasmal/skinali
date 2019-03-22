@@ -46,7 +46,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .wrapper {
@@ -894,12 +894,14 @@ font-weight: 400;
 
 .about-us__img {
   float: left;
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
   height: 269px;
   margin-right: 73px;
   margin-bottom: 30px;
   background-image: url(../img/about-us.jpg);
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .about-us__text p {
