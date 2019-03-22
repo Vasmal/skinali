@@ -160,10 +160,12 @@ body {
   position: absolute;
   width: 100%;
   z-index: -1;
+  visibility: hidden;
   transition: 0.2s all;
 }
 
 .menu-active {
+  visibility: visible;
   transform: translateY(0);
 }
 
