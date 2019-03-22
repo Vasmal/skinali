@@ -871,8 +871,49 @@ font-weight: 400;
   color: #596164;
 }
 
-.offer-2 .form__button {
-  min-width: 282px;
+.form__button-sm {
+  display: none;
+  min-width: 100%;
 }
+
+/*about-us*/
+
+.about-us {
+  padding-bottom: 100px;
+}
+
+.about-us__block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.block-for-float {
+  max-width: 1000px;
+}
+
+.about-us__img {
+  float: left;
+  width: 370px;
+  height: 269px;
+  margin-right: 73px;
+  margin-bottom: 30px;
+  background-image: url(../img/about-us.jpg);
+  background-position: center center;
+}
+
+.about-us__text p {
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.about-us__text p:last-child {
+  margin-bottom: 0;
+}
+
+
 
 

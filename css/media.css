@@ -3,6 +3,10 @@
     opacity: 0.6;
   }
 
+  .offer-2 .form__button {
+    min-width: 282px;
+  }
+
   .offer-2__security {
     max-width: 100%;
     margin-left: 0;
@@ -147,6 +151,12 @@
     width: 48%;
   }
 
+  .about-us__img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 580px) {
@@ -225,6 +235,16 @@
 }
 
 @media (max-width: 408px) {
+
+  .offer-2 .form__button {
+    display: none;
+  }
+
+  .offer-2 .form__button-sm {
+    display: block;
+    min-width: 100px;
+  }
+
   .form__input,
   .form__button  {
     height: 60px;
