@@ -971,3 +971,56 @@ font-weight: 400;
   background-repeat: no-repeat;
 }
 
+/*Question*/
+
+.question {
+  padding: 86px 0;
+}
+
+.question-block {
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.question__text {
+  margin: 0;
+  font-family: "Proxima Nova Semibold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  
+}
+
+.question__link {
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #5a8de2;
+  text-decoration: none;
+  position: relative;
+}
+
+.question__link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #5a8de2;
+  opacity: 0.3;
+}
+
+.question__link:hover,
+.question__link:focus {
+  color: #3866c7;
+}
+
+.question__link:hover::after {
+  opacity: 1;
+}

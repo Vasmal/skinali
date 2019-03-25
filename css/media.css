@@ -253,6 +253,16 @@
     line-height: 25px;
     text-align: justify;
   }
+
+  .question-block {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .question__text {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 408px) {
