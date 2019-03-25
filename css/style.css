@@ -195,7 +195,7 @@ body {
   background-color: #f1f1f1;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top right;
   background-size: contain;
   margin-top: 80px;
   padding-top: 120px;
@@ -959,5 +959,15 @@ font-weight: 400;
 
 .contacts__item:nth-child(3)::before {
   background-image: url(../img/contacts-email.png);
+}
+
+/*Map*/
+
+.map {
+  height: 410px;
+  background-image: url(../img/map.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
