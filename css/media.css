@@ -167,6 +167,23 @@
   .contacts__item:not(:last-child) {
     margin-bottom: 50px;
   }
+
+  .footer-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-block__item {
+    margin-bottom: 30px;
+  }
+
+  .footer__description {
+    text-align: center;
+  }
+
+  .footer__contacts {
+    align-items: center;
+  }
 }
 
 @media (max-width: 580px) {
