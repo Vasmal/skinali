@@ -16,6 +16,17 @@ $( document ).ready(function() {
     swipe: false,
   });
 
+  $('a[href*="#"]').on("click", function(e){
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top -120 + "px"
+    }, 777);
+    e.preventDefault();
+    return false;
+  });
+
+  $('[type="tel"]').mask("+7 (999) 999-99-99");
+
  /* $('.reviews__list').slick({
     dots: true,
     slidesToShow: 3,

@@ -143,6 +143,7 @@ body {
   padding: 25px 45px;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .button:hover {
