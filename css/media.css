@@ -33,7 +33,31 @@
     display: none;
   }
 
- 
+  .twentytwenty-overlay:hover,
+  .twentytwenty-overlay:focus {
+    background-color: transparent;
+  }
+
+  .twentytwenty-overlay {
+    background-color: transparent;
+  }
+
+  .slick-arrow {
+    border-color: #000;
+    z-index: 10;
+  }
+
+  .slick-prev {
+    left: 30px;
+  }
+
+  .slick-next {
+    right: 30px;
+  }
+
+  .reviews__item {
+    width: 48%;
+  }
 }
 
 @media (max-width: 960px) {
