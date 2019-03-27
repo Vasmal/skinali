@@ -1,4 +1,6 @@
-
+@import url(normalize.css);
+@import url(fonts.min.css);
+@import url(media.min.css);
 
 body {
   font-family: "Proxima Nova Regular", sans-serif;
