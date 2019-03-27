@@ -1,9 +1,9 @@
-$( document ).ready(function() {
-  $(".menu-button").click(function(){
+$(document).ready(function () {
+  $(".menu-button").click(function () {
     $(".menu").toggleClass("menu-active");
   });
 
-  $(window).load(function() {
+  $(window).load(function () {
     $(".before-after__item").twentytwenty({
       before_label: 'Без скинали', // Set a custom before label
       after_label: 'С скинали', // Set a custom after label
@@ -16,10 +16,10 @@ $( document ).ready(function() {
     swipe: false,
   });
 
-  $('a[href*="#"]').on("click", function(e){
+  $('a[href*="#"]').on("click", function (e) {
     var anchor = $(this);
     $('html, body').stop().animate({
-      scrollTop: $(anchor.attr('href')).offset().top -120 + "px"
+      scrollTop: $(anchor.attr('href')).offset().top - 120 + "px"
     }, 777);
     e.preventDefault();
     return false;
@@ -31,8 +31,7 @@ $( document ).ready(function() {
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
