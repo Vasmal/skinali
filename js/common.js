@@ -65,7 +65,7 @@ $(document).ready(function () {
 
   $(window).scroll(function() {
     if (!YaMapsShown){
-     if($(window).scrollTop() + $(window).height() > $(document).height() - 1000) {      
+     if($(window).scrollTop() + $(window).height() > $(document).height() - 2000) {      
       showYaMaps();
       YaMapsShown = true;
      }
@@ -77,8 +77,6 @@ $(document).ready(function () {
   script.type  = "text/javascript";
   script.src   = "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abbf232ef6d35a44755867800c393cd0de404dd284e0bbbd49dd468c03b058cbb&amp;width=100%25&amp;height=410&amp;lang=ru_RU&amp;scroll=false";
   document.getElementById("YaMaps").appendChild(script);
-  console.log("Карта");
-  
  }
  
 });
