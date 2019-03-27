@@ -55,9 +55,6 @@
     right: 30px;
   }
 
-  .reviews__item {
-    width: 48%;
-  }
 }
 
 @media (max-width: 960px) {

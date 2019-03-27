@@ -805,20 +805,25 @@ font-weight: 400;
 }
 
 .reviews__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.reviews__item {
+.reviews-wrap {
   width: 32%;
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.reviews__item {
+  width: 100%;
   max-width: 370px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 
 .reviews p {

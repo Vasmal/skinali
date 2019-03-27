@@ -27,13 +27,13 @@ $( document ).ready(function() {
 
   $('[type="tel"]').mask("+7 (999) 999-99-99");
 
- /* $('.reviews__list').slick({
+  $('.reviews__list').slick({
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1120,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -45,7 +45,7 @@ $( document ).ready(function() {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       },
       {
@@ -59,5 +59,5 @@ $( document ).ready(function() {
       // settings: "unslick"
       // instead of a settings object
     ]
-  });*/
+  });
 });
